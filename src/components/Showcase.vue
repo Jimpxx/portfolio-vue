@@ -1,9 +1,11 @@
 <template>
   <section class="showcase">
     <h1>Jimmy Andersson</h1>
-    <small>Web Developer | Backend & Frontend</small>
-    <a href="#projects" class="btn">My Work</a>
-    <!-- <router-link to="#projects" class="btn">My Work</router-link> -->
+    <small>Web Developer | I'm interested in Backend & Frontend</small>
+    <div class="buttons">
+      <a href="#projects" class="btn">My Work</a>
+      <router-link to="/about" class="btn">About me</router-link>
+    </div>
   </section>
 </template>
 
@@ -46,6 +48,11 @@ export default {
       font-size: 3rem;
     }
     padding: 3rem 3rem;
+    .buttons {
+      a {
+        margin: 1rem;
+      }
+    }
   }
 }
 </style>

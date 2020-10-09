@@ -9,8 +9,6 @@
         :project="project"
         :key="project.title"
       />
-      <Project />
-      <Project />
     </div>
   </div>
 </template>
@@ -34,6 +32,22 @@ export default {
           code: 'https://github.com/Jimpxx/jimit',
           live: 'https://www.jimit.se/',
         },
+        {
+          title: 'todo-vue3',
+          description: 'testing testing...',
+          image: 'img/todo-vue3.png', // Taking the image from the static folder because of webpack
+          builtWith: ['HTML', 'CSS', 'Materialize', 'Vue 3'],
+          code: 'https://github.com/Jimpxx/todo-app-vue3',
+          live: 'http://todo-vue3.surge.sh/',
+        },
+        {
+          title: 'quote of the day',
+          description: 'testing testing... React',
+          image: 'img/quote-of-the-day.png', // Taking the image from the static folder because of webpack
+          builtWith: ['HTML', 'CSS', 'React'],
+          code: 'https://github.com/Jimpxx/quote-of-the-day-react',
+          live: '',
+        },
       ],
     };
   },
@@ -43,10 +57,11 @@ export default {
 <style lang="scss">
 .projects {
   // width: 100%;
-  background-color: #5c5c5e;
+  background-color: #eee;
+  // background-color: #5c5c5e;
   // background-color: #dfe4e7;
   // background-color: #11273d;
-  color: #fff;
+  color: #222;
   padding: 3rem 1rem;
   text-align: center;
   // padding: 1rem;

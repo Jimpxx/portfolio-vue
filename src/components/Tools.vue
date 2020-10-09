@@ -38,7 +38,7 @@ export default {
   // width: 100%;
   // margin: 0 auto;
   background-color: #11273d;
-  padding: 2rem 2rem;
+  padding: 3rem 2rem 5rem 2rem;
   text-align: center;
   .heading {
     // text-align: center;

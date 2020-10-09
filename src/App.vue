@@ -62,7 +62,7 @@ body {
 .btn {
   display: inline-block;
   padding: 0.5em 1.2em;
-  margin: 1.5rem 0;
+  margin: 1.5rem 1rem;
   border-radius: 0.2em;
   // box-sizing: border-box;
   text-decoration: none;

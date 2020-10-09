@@ -41,7 +41,7 @@ export default {
   // background-color: #ddd;
   // background-color: #c3d4e6;
   background-color: #11273d;
-  // color: #fff;
+  color: #fff;
   max-width: 600px;
 }
 // img {

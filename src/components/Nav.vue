@@ -76,8 +76,20 @@ export default {
 @media (max-width: 620px) {
   #nav {
     padding: 0.7rem 1rem;
+    ul {
+      padding-left: 0;
+    }
     a {
       font-size: 1rem;
+      margin-right: 1.5rem;
+    }
+  }
+}
+
+@media (max-width: 480px) {
+  #nav {
+    a {
+      font-size: 0.8rem;
       margin-right: 1.5rem;
     }
   }

@@ -11,12 +11,18 @@
         <router-link to="/about">About</router-link>
       </li>
       <li>
+        <a href="./CV_jimmy-andersson.pdf" download>Resumé</a>
+      </li>
+      <li>
         <a href="https://github.com/Jimpxx" target="_blank">
           <i class="fab fa-github"></i>
         </a>
       </li>
       <li>
-        <a href="https://www.linkedin.com/in/jimmy-andersson-11895074/" target="_blank">
+        <a
+          href="https://www.linkedin.com/in/jimmy-andersson-11895074/"
+          target="_blank"
+        >
           <i class="fab fa-linkedin"></i>
         </a>
       </li>

@@ -34,7 +34,7 @@ export default {
           live: 'https://www.jimit.se/',
         },
         {
-          title: 'todo-vue3',
+          title: 'Todo application',
           description: 'A todo-application I built using the new version of Vue (Vue 3).',
           image: 'img/todo-vue3.png', // Taking the image from the static folder because of webpack
           builtWith: ['HTML', 'CSS', 'Materialize', 'Vue 3'],
@@ -47,6 +47,30 @@ export default {
           image: 'img/quote-of-the-day.png', // Taking the image from the static folder because of webpack
           builtWith: ['HTML', 'CSS', 'React'],
           code: 'https://github.com/Jimpxx/quote-of-the-day-react',
+          live: '',
+        },
+        {
+          title: 'URL Shortener (Frontend)',
+          description: 'The frontend for a URL shortener built with Vue.',
+          image: 'img/url-shortener-vue.png', // Taking the image from the static folder because of webpack
+          builtWith: ['HTML', 'Tailwind', 'Vue'],
+          code: 'https://github.com/Jimpxx/url-shortener-vue',
+          live: '',
+        },
+        {
+          title: 'URL Shortener (Backend)',
+          description: 'The backend for a URL shortener built with Express.',
+          image: 'img/url-shortener-node.png', // Taking the image from the static folder because of webpack
+          builtWith: ['Node.js', 'Express', 'Mongodb'],
+          code: 'https://github.com/Jimpxx/url-shortener-nodejs',
+          live: '',
+        },
+        {
+          title: 'Portfolio (Vue)',
+          description: 'This is the portfolio you are currently visiting.',
+          image: 'img/portfolio-vue.png', // Taking the image from the static folder because of webpack
+          builtWith: ['HTML', 'Sass', 'Vue'],
+          code: 'https://github.com/Jimpxx/portfolio-vue',
           live: '',
         },
       ],

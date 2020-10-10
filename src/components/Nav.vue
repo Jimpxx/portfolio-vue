@@ -90,7 +90,15 @@ export default {
   #nav {
     a {
       font-size: 0.8rem;
-      margin-right: 1.5rem;
+    }
+  }
+}
+
+@media (max-width: 395px) {
+  #nav {
+    a {
+      font-size: 0.6rem;
+      margin-right: 1rem;
     }
   }
 }

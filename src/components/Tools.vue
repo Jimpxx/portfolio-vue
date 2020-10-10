@@ -84,4 +84,12 @@ export default {
     }
   }
 }
+
+@media (max-width: 385px) {
+  .tools {
+    .content {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+}
 </style>

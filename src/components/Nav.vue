@@ -73,7 +73,7 @@ export default {
   }
 }
 
-@media (max-width: 570px) {
+@media (max-width: 620px) {
   #nav {
     padding: 0.7rem 1rem;
     a {

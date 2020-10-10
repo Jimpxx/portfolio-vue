@@ -1,9 +1,9 @@
 <template>
   <section class="showcase">
     <h1>Jimmy Andersson</h1>
-    <small>Web Developer | I'm interested in Backend & Frontend</small>
+    <small>Web Developer | Interested in Backend & Frontend</small>
     <div class="buttons">
-      <a href="#projects" class="btn">My Work</a>
+      <a href="#" v-scroll-to="'#projects'" class="btn">My Work</a>
       <router-link to="/about" class="btn">About me</router-link>
     </div>
   </section>

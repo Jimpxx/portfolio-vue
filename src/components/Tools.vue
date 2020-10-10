@@ -1,7 +1,7 @@
 <template>
   <div class="tools">
     <div class="heading">
-      <h2>Tools I use</h2>
+      <h2>Tools I've used</h2>
     </div>
     <div class="content">
       <Tool icon="html5" name="HTML" />

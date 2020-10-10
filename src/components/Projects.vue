@@ -2,6 +2,7 @@
   <div class="projects" id="projects">
     <div class="heading">
       <h1>Projects</h1>
+      <p>This section shows some of the projects I've worked on.</p>
     </div>
     <div class="content">
       <Project
@@ -26,7 +27,7 @@ export default {
       projects: [
         {
           title: 'jimit',
-          description: 'testing testing...',
+          description: 'The homepage for JimIT, the website for my company.',
           image: 'img/jimit.png', // Taking the image from the static folder because of webpack
           builtWith: ['HTML', 'CSS'],
           code: 'https://github.com/Jimpxx/jimit',
@@ -34,7 +35,7 @@ export default {
         },
         {
           title: 'todo-vue3',
-          description: 'testing testing...',
+          description: 'A todo-application I built using the new version of Vue (Vue 3).',
           image: 'img/todo-vue3.png', // Taking the image from the static folder because of webpack
           builtWith: ['HTML', 'CSS', 'Materialize', 'Vue 3'],
           code: 'https://github.com/Jimpxx/todo-app-vue3',
@@ -42,7 +43,7 @@ export default {
         },
         {
           title: 'quote of the day',
-          description: 'testing testing... React',
+          description: 'This application is built with React. It fetches a quote for the day (only one quote per day).',
           image: 'img/quote-of-the-day.png', // Taking the image from the static folder because of webpack
           builtWith: ['HTML', 'CSS', 'React'],
           code: 'https://github.com/Jimpxx/quote-of-the-day-react',
@@ -62,11 +63,12 @@ export default {
   // background-color: #dfe4e7;
   // background-color: #11273d;
   color: #222;
-  padding: 3rem 1rem;
+  padding: 3rem 0rem;
   text-align: center;
   // padding: 1rem;
 
   .content {
+    margin: 4rem 0rem;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
   }

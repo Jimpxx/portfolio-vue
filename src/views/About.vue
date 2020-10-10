@@ -5,12 +5,12 @@
       <div class="flex-container">
         <img src="../assets/Jimmy.jpg" alt="Image of Jimmy Andersson" />
         <p>
-          Hi! I’m a web developer from Sweden.
-          I’ve worked in IT for over 4 years before I began my studies.
-          I have experience in server administration and IT support.
-          During my recent time in school I’ve learned Javascript, PHP and Python.
-          I’ve also learned to manage and build databases, MySQL, SQLite and Mongodb
-          are the ones I’ve worked the most with. I like to learn new technologies.
+          Hi! I’m a web developer from Sweden. I’ve worked in IT for over 4
+          years before I began my studies. I have experience in server
+          administration and IT support. During my recent time in school I’ve
+          learned Javascript, PHP and Python. I’ve also learned to manage and
+          build databases, MySQL, SQLite and Mongodb are the ones I’ve worked
+          the most with. I like to learn new technologies.
         </p>
       </div>
     </div>
@@ -29,7 +29,7 @@ export default {};
   margin-top: 1rem;
   img {
     max-width: 300px;
-    border: 5px solid #fff;
+    border: 5px solid #ddd;
     border-radius: 50%;
     margin-right: 2rem;
   }
@@ -39,14 +39,15 @@ export default {};
 }
 
 .container {
-  background-color: #5c5c5e;
-  color: #fff;
+  background-color: #eee;
+  // background-color: #5c5c5e;
+  color: #222;
 }
 
 .about {
   min-height: 700px;
-  background-color: #5c5c5e;
-  color: #fff;
+  background-color: #eee;
+  color: #222;
   h1 {
     margin-top: 2rem;
   }

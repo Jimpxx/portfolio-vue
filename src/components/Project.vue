@@ -40,7 +40,10 @@ export default {
 
 <style lang="scss">
 .project {
+  max-width: 100%;
+  height: 100%;
   margin: 0rem 0rem;
+  // object-fit: cover;
   // background-color: #ddd;
   // background-color: #c3d4e6;
   // background-color: #11273d;
@@ -48,6 +51,12 @@ export default {
   // max-width: 600px;
 
   position: relative;
+  .image {
+    img {
+      display: block;
+      vertical-align: bottom;
+    }
+  }
 }
 
 .overlay {
@@ -80,7 +89,7 @@ export default {
   transform: translate(-50%, -50%);
   text-align: center;
   // dwd
-  padding: 1rem 3rem;
+  padding: 0rem 3rem;
   display: flex;
   flex-direction: column;
   .heading {

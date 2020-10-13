@@ -41,7 +41,7 @@ export default {
 <style lang="scss">
 .project {
   max-width: 100%;
-  height: 100%;
+  // height: 100%;
   margin: 0rem 0rem;
   // object-fit: cover;
   // background-color: #ddd;
@@ -54,7 +54,7 @@ export default {
   .image {
     img {
       display: block;
-      vertical-align: bottom;
+      // vertical-align: bottom;
     }
   }
 }

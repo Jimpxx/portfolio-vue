@@ -8,12 +8,13 @@
         <div class="flex-container">
           <img src="../assets/Jimmy.jpg" alt="Image of Jimmy Andersson" />
           <p>
-            Hi! I’m a web developer from Sweden. I’ve worked in IT for over 4
-            years before I began my studies. I have experience in server
-            administration and IT support. During my recent time in school I’ve
-            learned Javascript, PHP and Python. I’ve also learned to manage and
-            build databases, MySQL, SQLite and Mongodb are the ones I’ve worked
-            the most with. I like to learn new technologies.
+            Hi! I’m a newly educated web developer from Sweden. I’ve worked in
+            IT for over 4 years before I began my studies. I have experience in
+            server administration and IT support. During my recent time in
+            school I’ve learned Javascript, PHP and Python. I’ve also learned to
+            manage and build databases, MySQL, SQLite and Mongodb are the ones
+            I’ve worked the most with. I like to learn new technologies and I'm
+            interested in both backend and frontend.
           </p>
         </div>
       </div>

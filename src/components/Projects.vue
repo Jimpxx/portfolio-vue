@@ -71,7 +71,7 @@ export default {
           image: 'img/portfolio-vue.png', // Taking the image from the static folder because of webpack
           builtWith: ['HTML', 'Sass', 'Vue'],
           code: 'https://github.com/Jimpxx/portfolio-vue',
-          live: '',
+          live: 'https://jimmyandersson.me/',
         },
       ],
     };

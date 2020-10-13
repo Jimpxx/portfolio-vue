@@ -127,14 +127,14 @@ body {
 //     left: 0;
 // }
 
-.about {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  align-content: center;
-  justify-items: center;
-}
+// .about {
+//   display: flex;
+//   flex-direction: column;
+//   align-items: center;
+//   justify-content: center;
+//   align-content: center;
+//   justify-items: center;
+// }
 
 img {
   width: 100%;

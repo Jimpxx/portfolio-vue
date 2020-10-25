@@ -37,19 +37,13 @@ export default {};
   }
 }
 
-.about-title {
-}
-
 .about-content {
   margin-top: 4rem;
 }
 
 .flex-container {
   display: flex;
-  // justify-items: center;
-  // justify-content: space-around;
   align-items: center;
-  // margin-top: 1rem;
   img {
     max-width: 300px;
     border: 5px solid #ddd;
@@ -63,7 +57,6 @@ export default {};
 
 .container {
   background-color: #eee;
-  // background-color: #5c5c5e;
   color: #222;
 }
 
@@ -95,11 +88,5 @@ export default {};
     padding: 4rem 2rem;
     max-width: 100%;
   }
-  // .flex-container {
-  //   flex-direction: column;
-  // }
-  // .about-content {
-  //   margin-top: 2rem;
-  // }
 }
 </style>

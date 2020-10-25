@@ -40,7 +40,6 @@ export default {
 #nav {
   display: flex;
   justify-content: space-between;
-  //   width: 100%;
   align-items: center;
   padding: 0.7rem 5rem;
   background-color: #11273d;
@@ -48,8 +47,6 @@ export default {
     font-weight: bold;
     font-size: 1.2rem;
     color: #fff;
-    // color: #cfe8f5;
-    // color: #2c3e50;
     margin-right: 2rem;
     text-decoration: none;
 

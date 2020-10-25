@@ -22,7 +22,6 @@ export default {
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
-  // background-image: url("../assets/img/show.jpeg");
   background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
     url("../assets/img/show.jpeg");
   background-position: center;

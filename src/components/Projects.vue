@@ -81,16 +81,10 @@ export default {
 
 <style lang="scss">
 .projects {
-  // width: 100%;
   background-color: #eee;
-  // background-color: #5c5c5e;
-  // background-color: #dfe4e7;
-  // background-color: #11273d;
   color: #222;
   padding: 3rem 0rem;
   text-align: center;
-  // padding: 1rem;
-
   .content {
     margin: 4rem 0rem;
     display: grid;

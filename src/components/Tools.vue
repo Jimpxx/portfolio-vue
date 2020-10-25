@@ -35,13 +35,10 @@ export default {
 
 <style lang="scss" scoped>
 .tools {
-  // width: 100%;
-  // margin: 0 auto;
   background-color: #11273d;
   padding: 3rem 2rem 5rem 2rem;
   text-align: center;
   .heading {
-    // text-align: center;
     color: #fff;
     margin-bottom: 3rem;
   }
@@ -49,16 +46,8 @@ export default {
     display: grid;
     grid-template-columns: repeat(12, 1fr);
     justify-content: space-between;
-    // text-align: center;
     color: #fff;
-    // color: #09aeff;
   }
-  // .content {
-  //   display: flex;
-  //   justify-content: space-between;
-  //   // text-align: center;
-  //   color: #09aeff;
-  // }
 }
 
 @media (max-width: 1400px) {

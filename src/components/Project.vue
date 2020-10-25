@@ -41,20 +41,12 @@ export default {
 <style lang="scss">
 .project {
   max-width: 100%;
-  // height: 100%;
   margin: 0rem 0rem;
-  // object-fit: cover;
-  // background-color: #ddd;
-  // background-color: #c3d4e6;
-  // background-color: #11273d;
   color: #fff;
-  // max-width: 600px;
-
   position: relative;
   .image {
     img {
       display: block;
-      // vertical-align: bottom;
     }
   }
 }
@@ -65,7 +57,6 @@ export default {
   left: 0;
   right: 0;
   background-color: #11273d;
-  // background-color: #008cba;
   overflow: hidden;
   width: 100%;
   height: 0;
@@ -88,7 +79,6 @@ export default {
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   text-align: center;
-  // dwd
   padding: 0rem 3rem;
   display: flex;
   flex-direction: column;

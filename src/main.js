@@ -1,8 +1,4 @@
 import Vue from 'vue';
-// import VueParticles from 'vue-particles';
-// import { library } from '@fortawesome/fontawesome-svg-core';
-// import { faFontAwesome } from '@fortawesome/free-brands-svg-icons';
-// import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome';
 import VueScrollTo from 'vue-scrollto';
 import App from './App.vue';
 import router from './router';
@@ -10,12 +6,7 @@ import store from './store';
 
 Vue.use(VueScrollTo);
 
-// library.add(faFontAwesome);
-
-// Vue.component('font-awesome-icon', FontAwesomeIcon);
-
 Vue.config.productionTip = false;
-// Vue.use(VueParticles);
 
 new Vue({
   router,
